@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Vehicles</title>
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- custom JS -->
+    <script type="module" defer src="../scripts/viewVehicles.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <div id="country-filter-buttons">
+          <!-- created dynamically with viewVehicles.js -->
+        </div>
+      </section>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Model name</th>
+              <th>Price with PVM</th>
+              <th>Number plate</th>
+              <th>Country location</th>
+            </tr>
+          </thead>
+          <tbody id="vehicles-output"></tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add vehicle</title>
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- custom JS -->
+    <script type="module" defer src="../scripts/addVehicleToDb.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h4 class="form-title">Add vehicle to DB:</h4>
+        <form id="add-vehicle-form">
+          <label for="select-vehicle-model">Select vehicle model:</label>
+          <select
+            name="select-vehicle-model"
+            id="select-vehicle-model"
+          ></select>
+
+          <label for="vehicleNumberPlate">Vehicle number plate:</label>
+          <input type="text" id="vehicleNumberPlate" />
+
+          <label for="vehicleCountryLocation">Vehicle country:</label>
+          <input type="text" id="vehicleCountryLocation" />
+
+          <button type="submit">Add vehicle</button>
+        </form>
+      </section>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
