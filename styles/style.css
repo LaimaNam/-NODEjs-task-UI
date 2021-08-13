@@ -105,7 +105,6 @@ form select {
 
 table {
   margin: 30px auto;
-
   text-align: center;
 }
 
@@ -114,8 +113,22 @@ tr,
 th,
 td {
   border-collapse: collapse;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   padding: 4px;
+}
+
+thead {
+  border-bottom: 3px solid grey;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  border-bottom: 0.3px solid grey;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 /* main */
