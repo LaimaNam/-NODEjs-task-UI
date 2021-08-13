@@ -14,39 +14,40 @@
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
-  display: flex;
 }
 
 main {
-  margin: 10px auto;
+  margin: 20px auto;
+  text-align: center;
 }
 
 header {
   background-color: var(--main-color);
-  height: 100vh;
 }
 
 .header-wrapper,
 ul {
   display: flex;
-  flex-direction: column;
 }
 
 .header-wrapper {
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: white;
-  padding-top: 20px;
+  max-width: 768px;
+  margin: auto;
 }
 
+.logo {
+  padding-left: 15px;
+}
 .header-wrapper nav ul {
   justify-content: space-evenly;
-  margin-top: 10px;
 }
 
 .header-wrapper nav ul li {
   list-style: none;
-  padding: 7px 7px;
+  padding: 15px 15px;
 }
 
 .header-wrapper nav ul li a {
@@ -103,7 +104,8 @@ form select {
 /* table */
 
 table {
-  margin-top: 30px;
+  margin: 30px auto;
+
   text-align: center;
 }
 
@@ -114,4 +116,9 @@ td {
   border-collapse: collapse;
   border: 1px solid grey;
   padding: 4px;
+}
+
+/* main */
+main p {
+  margin-top: 20px;
 }
